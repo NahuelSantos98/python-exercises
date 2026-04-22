@@ -9,7 +9,7 @@ nombresList = ["Nahuel", "martiN", "", "Miguel"]
 def verificacionNombres():
     for index, nombre in enumerate(nombresList):
         if nombre.strip() != "":
-            nombre_formateado = nombre.title()
+            nombre_formateado = nombre.title() #O capitalize()
             print(nombre_formateado)
         else:
             print(f"Nombre en el espacio {index + 1} vacío.")
@@ -22,7 +22,7 @@ def verificacionNombres2():
             print(f"Nombre en index: {index + 1} vacío.")
             break
         else:
-            print(f"Nombre: {nombre.title()}.")
+            print(f"Nombre: {nombre.title()}.") #O capitalize()
 
 # verificacionNombres2()
 
@@ -30,7 +30,7 @@ def verificacionNombres2():
 def verificacionNombres3():
     for i in range(len(nombresList)):
         if nombresList[i].strip() != "":
-            nombre_formateado = nombresList[i].title()
+            nombre_formateado = nombresList[i].title() #O capitalize()
             print(nombre_formateado)
         else:
             print(f"Nombre en el espacio {i + 1} vacío.")

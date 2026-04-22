@@ -15,7 +15,7 @@ nombresList = ["Nahuel", "Martin", "", "Santos"]
 def verificacionNombres():
     for i in range(len(nombresList)):
         if nombresList[i].strip() != "":
-            nombre_formateado = nombresList[i].title()
+            nombre_formateado = nombresList[i].capitalize()
             print(f"Cliente {i + 1}: {nombre_formateado}")
         else:
             print(f"Dato en el index {i + 1} no es válido.")
