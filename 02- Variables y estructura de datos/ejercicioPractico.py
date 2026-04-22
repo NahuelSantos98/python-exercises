@@ -1,6 +1,8 @@
-# Solicite al cliente su nombre, apellido, edad y correo electrónico.
-# Almacene estos datos en variables.
-# Los muestre organizados en forma de una tarjeta de presentación en la pantalla.
+"""
+Solicite al cliente su nombre, apellido, edad y correo electrónico.
+Almacene estos datos en variables.
+Los muestre organizados en forma de una tarjeta de presentación en la pantalla.
+"""
 
 def pedirDatos():   #Esto es una function, lo vamos a ver mas adelante.
     nombre = input("Cual es tu nombre? ")
