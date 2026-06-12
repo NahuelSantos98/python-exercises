@@ -1,0 +1,4 @@
+Como estas?
+Segunda línea del archivo.
+Tercera línea del archivo.
+Cuarta línea del archivo.
